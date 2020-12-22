@@ -322,10 +322,10 @@ services:
     environment:
       - TZ=${TZ}
       - HOSTNAME="Docker Plex"
-      - PLEX_CLAIM="claim-YYYYYYYYY"
+      - PLEX_CLAIM=claim-YYYYYYYYY
       - PLEX_UID=${PUID}
       - PLEX_GID=${PGID}
-      - ADVERTISE_IP="http://SERVER-IP:32400/"
+      - ADVERTISE_IP=http://SERVER-IP:32400/
 
 # Tautulli (aka PlexPy) – Monitoring Plex Usage
   tautulli:
